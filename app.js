@@ -100,7 +100,7 @@ app.delete("/todos/:id", async function (request, response) {
 });
 
 app.get("/", (request, response) => {
-  app.locals.tasks = [{ title: "taks 1" }, { title: "task 2" }];
+  app.locals.tasks = [{ title: "task 1" }, { title: "task 2" }];
   response.render("index");
 });
 
